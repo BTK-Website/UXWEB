@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - BTK GYM</title>
+  <link rel="stylesheet" href="UX Project.css">
+</head>
+<body>
+<header>
+  <div class="logo-container">
+  <a href="index.html" class="logo">
+    <img src="images/logo.png" alt="BTK Gym Logo">
+  </a>
+</div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="trainer.html">Trainers</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="exercise.html">Classes</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="join-btn"><a href="join.html">Join</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="contact-container">
+  <h1>Contact Us</h1>
+  <form class="contact-form" action="submit_form.php" method="post">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+    <div class="info-section">
+      <h1>Our Contact Information</h1>
+      <div class="contact-info">
+        <p><span>Email:</span> info@btkgym.com</p>
+        <p><span>Phone:</span> 123-456-7890</p>
+        <p><span>Address:</span> 123 Gym Street, London, UK</p>
+      </div>
+    </div>
+  </div>
+
+
+
+</main>
+<footer>
+  <div class="footer-content">
+    <div class="footer-info">
+      <h3>BTK GYM</h3>
+      <p>Open 24/7</p>
+      <p>123 Gym Street, London, UK</p>
+      <p>Phone: 123-456-7890</p>
+      <p> BTK © 2025</p>
+    </div>
+    <div class="footer-map">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.8774097558557!2d-0.037916684135612965!3d51.47431397962991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603438c65b0d5%3A0x790260fd148210d1!2sGoldsmiths%2C%20University%20of%20London!5e0!3m2!1sen!2suk!4v1648136282227!5m2!1sen!2suk"
+        width="300"
+        height="200"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-no-downgrade">
+      </iframe>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
